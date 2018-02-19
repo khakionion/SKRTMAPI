@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SlackKit/SKCore", .upToNextMajor(from: "4.0.0")),
-        .package(url: "https://github.com/khakionion/SKWebAPI", .upToNextMajor(from: "4.0.0"))
+        .package(url: "https://github.com/khakionion/SKWebAPI", .branch("AuthTestClosure")))
     ],
     targets: []
 )
