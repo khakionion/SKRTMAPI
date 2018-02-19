@@ -8,7 +8,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/SlackKit/SKCore", .upToNextMajor(from: "4.0.0")),
-        .package(url: "https://github.com/khakionion/SKWebAPI", "4.0.8")
+        .package(url: "https://github.com/khakionion/SKWebAPI", .exact("4.0.8"))
     ],
     targets: []
 )
